@@ -104,3 +104,97 @@ header nav a:last-child {
 header .logo {
 	margin: 27px 0 0 90px;
 }
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+}
+
+.main-content h1 {
+    font-size: 35px;
+    margin-top: 70px;
+    margin-left: 370px;
+}
+
+.main-content .tag-line {
+    border-bottom: 1px solid black;
+    margin-top: 15px;
+    margin-left: 340px;
+}
+
+.main-content .box {
+    padding: 20px;
+    border: 1px solid black;
+    width: 420px;
+    background: lightslategrey;
+    margin: 20px 0;
+    color: white;
+}
+
+.main-content .box button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.main-content .box button:hover {
+    background: black;
+    color: white;
+}
+
+.bottom-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+}
+.bottom-content .bottom-box {
+    padding: 20px;
+    border: 1px solid black;
+    width: 420px;
+    background: lightslategrey;
+    margin: 20px 0;
+}
+
+.bottom-content .bottom-box #box2 {
+    padding: 20px;
+    border: 1px solid black;
+    width: 420px;
+    background: lightslategrey;
+    margin: 20px 500px 20px 0;
+}
+
+footer {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+
+
+.bottom-content .bottom-box button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.bottom-content .bottom-box button:hover {
+    background: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
